@@ -1,10 +1,10 @@
 import React from 'react';
 import './SidebarOption.css'
-const SidebarOption = ({Icon,title,number}) => {
+const SidebarOption = ({Icon,title,number,selected}) => {
     return (
-        <div className='sidebarOption'>
+        <div className={`sidebarOption ${selected && 'sidebar--active'}`}>
             <Icon/>
-            <h3>{title}</h3>
+            <h4>{title}</h4>
             <p>{number}</p>
         </div>
     );

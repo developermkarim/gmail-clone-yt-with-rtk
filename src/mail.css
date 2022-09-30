@@ -1,0 +1,35 @@
+.app{
+    height: 100vh;
+    overflow: scroll;
+}
+.app_body{
+    display: flex;
+    height: 100vh;
+}
+
+.emailList_sections{
+position: sticky;
+top: 0;
+display: flex;
+border-bottom: 1px solid whitesmoke;
+background-color: white;
+z-index: 99;
+/* justify-content:start; */
+}
+
+.emailList_settingright{}
+
+.emailList_settings{
+    display: flex;
+    justify-content: space-between;
+}
+
+.emailList{
+    flex: 1;
+    overflow: scroll;
+}
+
+.emailList_settingLeft{
+    display: flex;
+    align-items: center;
+}
